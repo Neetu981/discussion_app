@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DISCUSSION PORTAL</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="main">DISCUSSION PORTAL</div>
+    <div id="sec">
+      <div id="sec1">
+        <div id="sec1_1">
+          <button id="new_ques">New Question Form</button>
+          <input type="text" id="search" placeholder="search questions...">
+        </div>
+        <div id="q_list"></div>
+      </div>
+      <div id="sec2">
+        <div id="sec2_1">
+          <div id="main2">WELCOME TO DISCUSSION PORTAL!</div>
+          Enter a subject and question to get started...
+          <div id="text">
+            <input type="text" id="text1" placeholder="Subject" /><br />
+            <textarea
+              name="question"
+              id="text2"
+              rows="20"
+              cols="80"
+              placeholder="Enter Question..."
+            ></textarea>
+            <div class="buttons2">
+              <button id="reset">RESET</button>
+              <button id="submit">SUBMIT</button>
+            </div>
+          </div>
+        </div>
+        <div id="sec2_2" class="display">
+          <div> 
+            <h1 class="heading">Question</h1>
+            <div id="ques"></div>
+            <button id="resolve">Resolve</button>
+          </div>
+          <div>
+            <h1 class="heading">Response</h1>
+            <div id="response"></div>
+          </div>
+          <div>
+            <h1 class="heading">Add Response</h1>
+            <input
+              type="text"
+              placeholder="Enter Name..."
+              style="width: 89.7%"
+              id="text3"
+            /><br />
+            <textarea
+              name="question"
+              rows="8"
+              cols="80"
+              id="text4"
+              placeholder="Enter Comment..."
+            ></textarea>
+            <div class="buttons2">
+              <button id="reset2">RESET</button>
+              <button id="submit2">SUBMIT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index3.js"></script>
+  </body>
+</html>
+ 

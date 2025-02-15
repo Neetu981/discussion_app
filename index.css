@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+#main{
+    height: 10vh;
+    background-color:rgba(16, 151, 151, 0.82);
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+#sec{
+    height: 90vh;
+    display: flex;
+}
+#sec1{
+    width: 40%;
+    background-color:rgba(16, 151, 151, 0.7);
+}
+#sec2{
+    width: 60%;
+    padding: 40px; 
+    background-color: pink;
+}
+#text1{  
+   width: 89.7%; 
+   height: 30px;
+   background-color: white;
+}
+#text{
+    margin-top: 5px;
+}
+#text2{
+    background-color: white;
+}
+button{
+    margin-left: 30px;
+    padding: 8px;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+}
+#sec1_1{
+    height: 13%;
+    display: flex;
+    align-items: center;
+    background-color: pink;
+}
+#sec1 input{
+    margin-left: 20px;
+}
+.buttons2{
+    margin-right: 130px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#reset,#reset2{
+    background-color: red;
+}
+#main2{
+    font-size: 45px;
+    font-weight: 900;
+    padding: 5px 0px;
+}
+.item{
+    background-color:rgb(239, 237, 233);
+    margin: 30px;
+    border: 2px solid rgb(5, 132, 132);
+    padding: 5px;
+}
+.item h1{
+    font-size: x-large ;
+    padding: 5px 0;
+}
+.heading{
+    font-size: x-large;
+    font-weight: 900;
+}
+.display{
+    display: none;
+}
+#q_list{
+    height: 87%;
+    overflow: auto;
+}
+#response{
+   max-height: 180px;
+   overflow: auto;
+}
+.item2{
+    background-color:rgb(239, 237, 233);
+    margin: 5px;
+    border: 2px solid rgb(5, 132, 132);
+    padding: 5px;
+    border-radius: 10px;
+}
+#resolve{
+    margin-left: 85%;
+}  
+.ques_head, .res_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.res_head div{
+    cursor: pointer;
+    font-size: 24px;
+}
+.star {
+    cursor: pointer;
+    font-size: 24px;
+    color: grey; 
+    float: right;  
+}
+.match{
+    font-size: larger;
+}
